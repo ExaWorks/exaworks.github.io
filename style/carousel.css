@@ -14,7 +14,7 @@ body {
 }
 
 .bg-exaworks {
-  background-color: blue !important;
+  background-color: #590c0c!important;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -48,7 +48,7 @@ body {
 
 .exaworks-banner {
   color: white;
-  background-color: black;
+  background-color: #590c0c;
   margin-bottom: 80px;
 }
 .exaworks-banner-img {
