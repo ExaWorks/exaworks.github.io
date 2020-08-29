@@ -2,8 +2,11 @@
 layout: default
 title: People
 ---
-
-      <h1>People</h1>
+\<div class="container support" style="margin-top: 10px;">
+  
+  <div class="row" style="padding-top: 20px">
+    <div class="col-lg-12">
+      <h2>People</h2>
     
       {% assign people = site.people | sort: 'ranking' %}
 
@@ -35,3 +38,5 @@ title: People
             </div>
       {% endif %}
     
+		</div>
+</div>
