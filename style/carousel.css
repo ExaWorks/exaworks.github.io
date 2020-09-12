@@ -74,11 +74,9 @@ body {
 .exaworks-banner {
   color: white;
   background-color: #300303;
-  margin-bottom: 80px;
-	height: 300px;
 }
 .exaworks-banner-img {
-  max-width: 70%;
+  max-height: 100px;
 }
 
 
