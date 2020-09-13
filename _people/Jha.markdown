@@ -1,6 +1,6 @@
 ---
 title: "Shantenu Jha"
-image: "chard-kyle.jpg"
+image: "jha.jpg"
 institution: "Brookhaven National Laboratory"
 ranking: 4
 ---
