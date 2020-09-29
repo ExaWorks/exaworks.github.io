@@ -1,6 +1,6 @@
 ---
 title: "Yadu Babuji"
-image: "person.png"
+image: "yadu.jpg"
 institution: "Argonne National Laboratory"
 ranking: 11
 ---
