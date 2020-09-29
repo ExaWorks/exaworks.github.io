@@ -1,6 +1,6 @@
 ---
 title: "Stephen Herbein"
-image: "person.png"
+image: "herbein-stephen.png"
 institution: "Lawrence Livermore National Laboratory"
 ranking: 11
 ---
