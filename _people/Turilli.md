@@ -1,6 +1,6 @@
 ---
 title: "Matteo Turilli"
-image: "person.png"
+image: "mturilli.png"
 institution: "Brookhaven National Laboratory"
 ranking: 11
 ---
