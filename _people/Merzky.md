@@ -1,6 +1,6 @@
 ---
-title: "Andrey Merzky"
-image: "person.png"
+title: "Andre Merzky"
+image: "merzky.png"
 institution: "Brookhaven National Laboratory"
 ranking: 11
 ---
