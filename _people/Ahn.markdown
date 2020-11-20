@@ -1,6 +1,6 @@
 ---
-title: "Dong Ahn"
-image: "chard-kyle.jpg"
+title: "Dong H. Ahn"
+image: "ahn.jpg"
 institution: "Lawrence Livermore National Laboratory"
 ranking: 2
 ---
