@@ -1,6 +1,6 @@
 ---
 title: "Dan Laney"
-image: "chard-kyle.jpg"
+image: "laney.jpg"
 institution: "Lawrence Livermore National Laboratory"
 ranking: 1
 ---
