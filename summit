@@ -1,0 +1,24 @@
+---
+layout: default
+title: Workflows Community Summit
+---
+
+
+<div class="container support" style="margin-top: 10px;">
+  
+  <div class="row" style="padding-top: 20px">
+    <div class="col-lg-12">
+      <h2>Workflows Community Summit (Jan 13)</h2>
+
+      <p>In collaboration with <a href="https://workflowsri.org/">the workflowsRI project</a> we are organizing the Workflows Community Summit. 
+      This unique event will gather a select group of lead researchers from distinct workflow management systems, and will 
+      seek to identify crucial challenges in the workflow community. This event will be the first of a series of focused meetings, 
+      and will serve to define the strategic goals for upcoming meetings with the science and workflow developer communities.
+      </p>
+				    
+      <p>The agenda, participants, and topics are avaialble <a href="https://workflowsri.org/summits/community/">here</a>.</p>
+    </div>
+   </div>
+	
+	
+</div>
