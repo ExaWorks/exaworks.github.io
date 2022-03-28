@@ -1,0 +1,49 @@
+---
+layout: default
+title: PSI/J
+---
+
+<div class="wrapper">
+	<div class="container">
+		<div class="row" style="margin: 0em 0">
+			<div class="col-8 col-12-narrower">
+				<article id="content">
+					<header>
+						<img src="/images/exaworks-psij-logo.png" width="300px" />
+						<h2>Portable Submission Interface for Jobs</h2>
+					</header>
+					<p>
+						PSI/J is a portability layer across different HPC workload managers allowing workflow developers
+						and users to create portable workflows with a standard API. PSI/J aims to focus effort by
+						pooling into a single layer the collective knowledge obtained from these disparate efforts.
+						PSI/J is composed of both a language-agnostic community-defined specification and the
+						specification's <a href="https://github.com/ExaWorks/job-api-spec"
+							target="_blank">language-specific implementations</a>. The high-level goals of the
+						specification are to be lightweight, user-space, minimally prescriptive, scalable via
+						asynchronous operations, general, and extensible to different systems, schedulers,
+						implementations.
+					</p>
+
+					<p>
+						The PSI/J specification is broken into three layers that each build on one another:
+					</p>
+
+					<ul>
+						<li>The first layer forms the base of the specification and focuses on supporting the launching
+							and monitoring of "<strong>local</strong>" jobs (i.e., the client is running on the same system or cluster as
+							the jobs).</li>
+						<li>The second layer builds on the first to provide support for "<strong>remote</strong>" jobs (i.e., the client
+							must connect over the network, potentially with authentication, to launch and monitor jobs),
+							managing multiple clusters simultaneously, and allowing file staging.</li>
+						<li>The third layer builds on the previous two to support efficient execution of small jobs
+							through the "nested", "<strong>pilot job</strong>", or "jobs-in-jobs" paradigm.</li>
+					</ul>
+				</article>
+			</div>
+			<div class="col-4 col-12-narrower">
+				<br /><br /><br /><br />
+				<img src="/images/exaworks-psij.png" width="100%" />
+			</div>
+		</div>
+	</div>
+</div>

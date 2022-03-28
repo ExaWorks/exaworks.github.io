@@ -1,0 +1,94 @@
+- name: "Dan Laney"
+  image: "laney.jpg"
+  institution: "Lawrence Livermore National Laboratory"
+  active: true
+
+- name: "Kyle Chard"
+  image: "chard-kyle.jpg"
+  institution: "Argonne National Laboratory"
+  active: true
+
+- name: "Shantenu Jha"
+  image: "jha.jpg"
+  institution: "Brookhaven National Laboratory"
+  active: true
+
+- name: Rafael Ferreira da Silva
+  image: ferreiradasilva.jpg
+  institution: Oak Ridge National Laboratory
+  active: true
+
+- name: "Dong H. Ahn"
+  image: "ahn.jpg"
+  institution: "Lawrence Livermore National Laboratory"
+  active: true
+
+- name: Todd Munson
+  image: munson.jpg
+  institution: Argonne National Laboratory
+  active: true
+
+- name: Aymen Alsaadi
+  image: alsaadi.jpg
+  institution: Brookhaven National Laboratory
+  active: true
+
+- name: Ben Clifford
+  image: clifford.jpg
+  institution: Argonne National Laboratory
+  active: true
+
+- name: James Corbett
+  image: corbett.jpg
+  institution: Lawrence Livermore National Laboratory
+  active: true
+
+- name: "Mihael Hategan"
+  image: "person.png"
+  institution: "Argonne National Laboratory"
+  active: true
+
+- name: Ketan Maheshwari
+  image: maheshwari.jpg
+  institution: Oak Ridge National Laboratory
+  active: true
+
+- name: "Andre Merzky"
+  image: "merzky.png"
+  institution: "Brookhaven National Laboratory"
+  active: true
+
+- name: Zeke Morton
+  image: morton.jpg
+  institution: Lawrence Livermore National Laboratory
+  active: true
+
+- name: Mikhail Titov
+  image: person.png
+  institution: Brookhaven National Laboratory
+  active: true
+
+- name: "Matteo Turilli"
+  image: "mturilli.png"
+  institution: "Brookhaven National Laboratory"
+  active: true
+
+- name: "Andreas Wilke"
+  image: wilke.jpg
+  institution: Argonne National Laboratory
+  active: true
+
+- name: "Justin M. Wozniak"
+  image: "wozniak.jpg"
+  institution: "Argonne National Laboratory"
+  active: true
+
+- name: "Stephen Herbein"
+  image: "herbein-stephen.png"
+  institution: "Lawrence Livermore National Laboratory"
+  active: false
+
+- name: "Yadu Babuji"
+  image: "yadu.jpg"
+  institution: "Argonne National Laboratory"
+  active: false

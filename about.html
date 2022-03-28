@@ -1,75 +1,106 @@
 ---
 layout: default
-title: Abount ExaWorks
+title: About
 ---
 
-<style> 
-.support-logos{
-text-align: center;
-}
-</style>
-<div class="container support" style="margin-top: 10px;">
-  
-  <div class="row" style="padding-top: 20px">
-    <div class="col-lg-12">
-      <h2>About ExaWorks</h2>
-			<p>The convergence of traditional High Performance Computing (HPC) and new simulation, analysis,
-and data science approaches provides unprecedented opportunities for discovery but also creates
-new application and infrastructure challenges. Several ECP workflows exemplify this new reality:
-a heterogeneous combination of applications, models, and "glue" code, running on heterogeneous
-compute nodes with machine learning in the middle, and a scalable workflow infrastructure orchestrating
-the entire process. At extreme scale, these workflows will almost certainly require
-specialized workflow management software which is within the reach of only large and specialized
-inter-disciplinary teams. Historically, such approaches have tended to result in complex, integrated,
-and stovepiped software systems. Further, there are now hundreds of moribund workflow systems,
-which indicates that many teams, small and large, elect to build their own custom workflow solution
-rather than adopt, or build upon, an integrated system. </p>
+<div class="wrapper">
+	<div class="container" id="main">
+		<div class="row gtr-150">
+			<div class="col-7 col-12-narrower">
+				<article id="content">
+					<header>
+						<h3>Project Motivation</h3>
+					</header>
+					<p>
+						The convergence of traditional High Performance Computing (HPC) and new simulation, analysis,
+						and data science approaches provides unprecedented opportunities for discovery but also
+						creates new application and infrastructure challenges. Several ECP workflows exemplify this new
+						reality: a heterogeneous combination of applications, models, and "glue" code, running on
+						heterogeneous compute nodes with machine learning in the middle, and a scalable workflow
+						infrastructure orchestrating the entire process. At extreme scale, these workflows will almost
+						certainly require specialized workflow management software which is within the reach of only
+						large and specialized inter-disciplinary teams. Historically, such approaches have tended to
+						result in complex, integrated, and stovepiped software systems. Further, there are now hundreds
+						of moribund workflow systems, which indicates that many teams, small and large, elect to build
+						their own custom workflow solution rather than adopt, or build upon, an integrated system.
+					</p>
 
-<p>ExaWorks represents a new approach: developing a multi-level SDK that will enable 
-teams to produce scalable and portable workflows for a
-wide range of exascale applications. ExaWorks does not aim to replace the many workflow solutions already
-deployed and used by scientists, but rather to provide a robust SDK and work with the community
-	to identify well-defined and scalable component interfaces which
-can be leveraged by new and existing workflows. Most importantly, this SDK will enable a sustainable
-software infrastructure for workflows so that the software artifacts produced by teams will
-be easier to port, modify, and utilize long after projects end. SDK components will be usable by
-many other WMS thus facilitating software convergence in the workflows community. </p>
+					<header>
+						<h3>What is ExaWorks?</h3>
+					</header>
+					<p>
+						ExaWorks represents a new approach: developing a multi-level SDK that will enable teams to
+						produce scalable and portable workflows for a wide range of exascale applications. ExaWorks does
+						not aim to replace the many workflow solutions already deployed and used by scientists, but
+						rather to provide a robust SDK and work with the community to identify well-defined and scalable
+						component interfaces which can be leveraged by new and existing workflows. Most importantly,
+						this SDK will enable a sustainable software infrastructure for workflows so that the software
+						artifacts produced by teams will be easier to port, modify, and utilize long after projects end.
+						SDK components will be usable by many other WMS thus facilitating software convergence in the
+						workflows community.
+					</p>
 
-<p>The major aims of the project are to</p>
-    
-	    <ol> 
-				<li>Create the ExaWorks SDK following a community-oriented process. First defining a community
-					policy for inclusion in the SDK. Based on application requirements we will assemble
-					a set of vertical workflow technologies (level 0), work to integrate those technlogies
-					via existing native interfaces and shim layers (level 1), and collaborate to identify
-					common component interfaces that can be used for interoperation between systems. </li>
-		    <li>Impact ECP applications. Working closely with ECP applications to design and develop workflows, supporting
-		    adoption of then ExaWorks SDK, deriving lessons and best-practices, and sharing these approaches with the community via documentation, tutorials, and hackathons.  </li>
-		    		<li>Community engagement with the ECP applications, workflows, and facility communities
-				to harmonize the disparate and stovepiped workflow landscape, ensure ExaWorks SDK
-				operates on exascale systems, and to create resources to support ECP applications
-				and workflow users. </li>
-		
-			</ol>
-		</div>
-  </div>			
+					<header>
+						<h3>Project Goals</h3>
+					</header>
+					<ol>
+						<li>Create the ExaWorks SDK following a community-oriented process. First defining a
+							community
+							policy for inclusion in the SDK. Based on application requirements we will assemble
+							a set of vertical workflow technologies (level 0), work to integrate those technlogies
+							via existing native interfaces and shim layers (level 1), and collaborate to identify
+							common component interfaces that can be used for interoperation between systems. </li>
+						<li>Impact ECP applications. Working closely with ECP applications to design and develop
+							workflows, supporting
+							adoption of then ExaWorks SDK, deriving lessons and best-practices, and sharing these
+							approaches with the community via documentation, tutorials, and hackathons. </li>
+						<li>Community engagement with the ECP applications, workflows, and facility communities
+							to harmonize the disparate and stovepiped workflow landscape, ensure ExaWorks SDK
+							operates on exascale systems, and to create resources to support ECP applications
+							and workflow users. </li>
 
-	<div class="row">
-    <div class="col-lg-12">
-      <h2>Funding</h2>
-			
-			 <p>ExaWorks is supported by the the DOE Exascale Computing Project</p>
+					</ol>
+				</article>
+
+				<article id="content">
+					<header>
+						<h3>Funding</h3>
+					</header>
+					<p>ExaWorks is supported by the the DOE Exascale Computing Project</p>
+					<div class="row support-logos" style="padding-top: 40px">
+						<div class="col-lg-4"></div>
+						<div class="col-lg-2">
+							<img src="images/doe.png" width="120" height="120">
+						</div>
+						<div class="col-lg-2">
+							<img src="images/ecp.png" width="120" height="120">
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-5 col-12-narrower">
+				<h3 style="margin-bottom: 0.5em">Team</h3>
+				<div class="team">
+					{% assign active_people = site.data.people | where: "active", "true" %}
+					{% for p in active_people %}
+					<div class="member">
+						<img src="/images/people/{{p.image}}" />
+						{{p.name}}<br />
+						<span style="font-size: 0.8em; color: #950740">{{p.institution}}</span>
+					</div>
+					{% endfor %}
+				</div>
+				<h4 style="margin: 1em 0 0.5em 0">Previous Contributors</h4>
+				{% assign active_people = site.data.people | where: "active", "false" %}
+					{% for p in active_people %}
+					<div class="member" style="line-height: 1.3em; font-size: 0.8em; color: #999">
+						<img src="/images/people/{{p.image}}" style="width: 3em; filter: grayscale(1)" />
+						{{p.name}}<br />
+						<span style="font-size: 0.8em">{{p.institution}}</span>
+					</div>
+					{% endfor %}
+			</div>
 		</div>
 	</div>
-<div class="row support-logos" style="padding-top: 40px">
-		<div class="col-lg-4"></div>
-		<div class="col-lg-2">
-				<img src="images/doe.png" width="120" height="120">
-		</div>
-		<div class="col-lg-2">
-				<img src="images/ecp.png" width="120" height="120">
-		</div>
-  </div>			
-
-</div>
 </div>

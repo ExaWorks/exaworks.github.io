@@ -1,102 +1,102 @@
 <!DOCTYPE html>
-<!-- saved from url=(0053)https://getbootstrap.com/docs/4.0/examples/carousel/# -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
-    <link rel="shortcut icon" type="image/png" href="favicon.ico">
+<html lang="en">
 
-    <title>ExaWorks</title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <!-- Bootstrap core CSS -->
-    <link href="./style/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{site.description}}">
+  <meta name="author" content="ExaWorks Team">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/main.css" />
 
-    <!-- Custom styles for this template -->
-    <link href="./style/carousel.css" rel="stylesheet">
+  <title>{% if page.title %} {{ page.title }} - {% endif %}{{ site.title }}</title>
 
-    <script src="./js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-    <!--<script src="./style/popper.min.js.download"></script>-->
-    <script src="./js/bootstrap.min.js.download"></script>
-    <script src="./js/holder.min.js.download"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116053119-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-116053119-1');
+  </script>
+  <script src="https://kit.fontawesome.com/0f2ef02e2b.js" crossorigin="anonymous"></script>
+</head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116053119-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-116053119-1');
-    </script>
-	
-    <style>
-    .inst-logo{
-        margin-top: 0px;
-				margin-bottom:-20px;
-    }
-    </style>
+<body class="homepage is-preload">
+  <div id="page-wrapper">
+    <!-- Header -->
+    <div id="header-wrapper" style="padding: 0">
+      <div id="header" class="container" style="position: fixed; top: 0; z-index: 10000">
 
-  </head>
-  <body>
+        <!-- Logo -->
+        <h1 id="logo"><a href="/"><img src="/images/exaworks-name.png" width="75%" style="margin-top: 0.75em" /></a>
+        </h1>
 
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-exaworks">
-        <a class="navbar-brand" href="/">
-				<img src="images/logo/exaworks.png" height="25">
-				</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            
-						<li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="join.html">Join ExaWorks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="team.html">Team</a>
-            </li>        
-	<li class="nav-item">
-              <a class="nav-link" href="summit.html">Community Summits</a>
-            </li>     
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <!-- <li>
+                <a href="#">Dropdown</a>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor</a></li>
+                  <li><a href="#">Magna phasellus</a></li>
+                  <li><a href="#">Etiam dolore nisl</a></li>
+                  <li>
+                    <a href="#">Phasellus consequat</a>
+                    <ul>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Phasellus consequat</a></li>
+                      <li><a href="#">Magna phasellus</a></li>
+                      <li><a href="#">Etiam dolore nisl</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Veroeros feugiat</a></li>
+                </ul>
+              </li> -->
+            <li><a href="/psij">PSI/J</a></li>
+            <li><a href="/sdk">SDK</a></li>
+            <li><a href="/community">Community</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="https://join.slack.com/t/exaworks/shared_invite/zt-gttapi1i-GSaiHd8Q0h7uKyZnIqAUwQ"
+                target="_blank"><i class="fab fa-slack"></i></a></li>
+            <li><a href="https://github.com/exaworks" target="_blank"><i class="fab fa-github"></i></a></li>
           </ul>
-        </div>
-      </nav>
-    </header>
-
-    <main role="main">
-
-      {{ content }}
-
-      <!-- FOOTER -->
-      <footer class="container">
-        <hr>
-	<div class="row" style="text-align: center">
-		<div class="col-lg-1"></div>
-		<div class="col-lg-3">
-			<img class="inst-logo" src="images/bnl-200.png" width="200">
-		</div>
-  
-		<div class="col-lg-3">
-			<img class="inst-logo" src="images/llnl-200.png" width="200">
-		</div>
-		
-		<div class="col-lg-3">
-			<img class="inst-logo" src="images/anl-200.png" width="200">
-		</div>
+        </nav>
+      </div>
   </div>
 
-        <p class="float-right"><a href="#">Back to top</a></p>
-      </footer>
-    </main>
+  <main role="main">
+    {{ content }}
+  </main>
 
+  <!-- Footer -->
+  <div id="footer-wrapper">
+    <div id="copyright" class="container">
+      <ul class="menu">
+        <li>&copy;{{ site.time | date: '%Y' }} ExaWorks</li>
+        <li><a href="https://join.slack.com/t/exaworks/shared_invite/zt-gttapi1i-GSaiHd8Q0h7uKyZnIqAUwQ"
+            target="_blank" style="border-bottom: 0"><i class="fab fa-slack"></i></a></li>
+        <li><a href="https://github.com/exaworks" target="_blank" style="border-bottom: 0"><i class="fab fa-github"></i></a></li>
+      </ul>
+      <div>
+        <a href="https://www.llnl.gov/" target="_blank" style="border-bottom: 0">
+          <img src="/images/llnl.png" style="height: 3em" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.anl.gov/" target="_blank" style="border-bottom: 0">
+          <img src="/images/anl-200.png" style="height: 3em" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.bnl.gov/world/" target="_blank" style="border-bottom: 0">
+          <img src="/images/bnl.png" style="height: 3em" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.ornl.gov/" target="_blank" style="border-bottom: 0">
+          <img src="/images/ornl.png" style="height: 2.5em" />
+        </a>
+      </div>
+    </div>
+  </div>
 
-<!--
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg>
--->
-</body></html>
+</body>
+
+</html>
