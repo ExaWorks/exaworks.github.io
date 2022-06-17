@@ -21,7 +21,7 @@
 - name: "Dong H. Ahn"
   image: "ahn.jpg"
   institution: "Lawrence Livermore National Laboratory"
-  active: true
+  active: false
 
 - name: Todd Munson
   image: munson.jpg
