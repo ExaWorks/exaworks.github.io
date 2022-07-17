@@ -32,6 +32,11 @@
   image: alsaadi.jpg
   institution: Brookhaven National Laboratory
   active: true
+  
+- name: "Yadu Babuji"
+  image: "yadu.jpg"
+  institution: "Argonne National Laboratory"
+  active: True
 
 - name: Ben Clifford
   image: clifford.jpg
@@ -77,6 +82,11 @@
   image: wilke.jpg
   institution: Argonne National Laboratory
   active: true
+  
+- name: "Tom Uram"
+  image: "uram.jpg"
+  institution: "Argonne National Laboratory"
+  active: True
 
 - name: "Justin M. Wozniak"
   image: "wozniak.jpg"
@@ -88,7 +98,4 @@
   institution: "Lawrence Livermore National Laboratory"
   active: false
 
-- name: "Yadu Babuji"
-  image: "yadu.jpg"
-  institution: "Argonne National Laboratory"
-  active: false
+
