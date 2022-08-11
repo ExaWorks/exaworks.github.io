@@ -98,4 +98,8 @@
   institution: "Lawrence Livermore National Laboratory"
   active: false
 
+- name: "Pascal Aschwanden"
+  image: "pascal.jpg"
+  institution: "Lawrence Livermore National Laboratory"
+  active: true
 
